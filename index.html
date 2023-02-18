@@ -32,7 +32,7 @@
   <div class="back-modal  is-hidden"  data-modal>
     <div class="modal">
       <button class="modal-close" data-modal-close >
-        <svg  width="17px" height="17px" >
+        <svg class="modal-close-svg" width="17px" height="17px" >
           <use href="./images/symbol.svg#cross"></use>
       </svg>
       </button >
@@ -51,5 +51,100 @@
     </div>
   </div >
   <script src="./modal.js"></script>
+  <main>
+    <section class="hero">
+      <div class="container-hero">
+        <picture>
+          <source
+            srcset="
+              ./images/girl-320-1x.webp 1x,
+              ./images/girl-320-2x.webp 2x,
+            "
+            type="image/webp"
+            media="(max-width:574px)"
+          />
+          <source
+            srcset="
+              ./images/girl-320-1x.jpg 1x,
+              ./images/girl-320-2x.jpg 2x,
+            "
+            media="(max-width:574px)"
+          />
+          <source
+            srcset="
+              ./images/girl-575-1x.webp 1x,
+              ./images/girl-575-2x.webp 2x,
+            "
+            type="image/webp"
+            media="(min-width:575px) and (max-width:767px)"
+          />
+          <source
+            srcset="
+              ./images/girl-575-1x.jpg 1x,
+              ./images/girl-575-2x.jpg 2x,
+            "
+            media="(min-width:575px) and (max-width:767px)"
+          />
+          <source
+            srcset="
+              ./images/girl-768-1x.webp 1x,
+              ./images/girl-768-2x.webp 2x,
+            "
+            type="image/webp"
+            media="(min-width:768px) and (max-width:991px)"
+          />
+          <source
+            srcset="
+              ./images/girl-768-1x.jpg 1x,
+              ./images/girl-768-2x.jpg 2x,
+            "
+            media="(min-width:768px) and (max-width:991px)"
+          />
+          <source
+            srcset="
+              ./images/girl-992-1x.webp 1x,
+              ./images/girl-992-2x.webp 2x,
+            "
+            type="image/webp"
+            media="(min-width:992px) and (max-width:1599px)"
+          />
+          <source
+            srcset="
+              ./images/girl-992-1x.jpg 1x,
+              ./images/girl-992-2x.jpg 2x,
+            "
+            media="(min-width:992px) and (max-width:1599px)"
+          />
+          <source
+            srcset="
+              ./images/girl-1600-1x.webp 1x,
+              ./images/girl-1600-2x.webp 2x,
+            "
+            type="image/webp"
+            media="(min-width:1600px)"
+          />
+          <source
+            srcset="
+              ./images/girl-1600-1x.jpg 1x,
+              ./images/girl-1600-2x.jpg 2x,
+            "
+            media="(min-width:1600px)"
+          />
+          <img src="./images/girl-320-1x.jpg"
+          alt="girl_learns_English" />
+        </picture>
+        <div class="hero-text-cont">
+          <h1 class="hero-title">
+            <span><span>Learn</span> Any</span> Foreign Language
+          </h1>
+          <p class="hero-p">
+            With our teachers who write a program for each student, you will
+            be able to make your first sketch after the first lesson.
+          </p>
+          <button class="hero-btn" type="button">Get started</button>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
